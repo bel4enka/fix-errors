@@ -1,0 +1,10 @@
+.form__agreement {
+  display: flex;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+  .form__agreement {
+    align-items: flex-start;
+  }
+}

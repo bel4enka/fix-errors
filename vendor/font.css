@@ -1,0 +1,14 @@
+@font-face {
+  src:
+    url("../fonts/Golos-Text/Golos-Text_Regular.woff2") format("woff2"),
+    url("../fonts/Golos-Text/Golos-Text_Regular.woff") format("woff");
+  font-family: 'Golos';
+}
+
+@font-face {
+  src:
+    url("../fonts/NeueMachina/NeueMachina-Ultrabold.woff2") format("woff2"),
+    url("../fonts/NeueMachina/NeueMachina-Ultrabold.woff") format("woff");
+  font-family: 'NeueMachinaBold';
+  font-weight: bold;
+}

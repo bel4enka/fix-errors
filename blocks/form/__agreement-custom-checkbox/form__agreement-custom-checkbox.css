@@ -1,0 +1,10 @@
+.form__agreement-custom-checkbox {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: inherit;
+  margin: 0;
+  margin-right: 10px;
+}

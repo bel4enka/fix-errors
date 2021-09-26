@@ -1,0 +1,23 @@
+.card-image__button {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 118px);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 235px;
+  height: 48px;
+  background: #0A0A0A;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0;
+  transition: .6s ease-in-out;
+}
+
+.card-image:hover .card-image__button {
+  opacity: 1;
+}

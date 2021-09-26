@@ -1,0 +1,9 @@
+.header__edition {
+  margin-left: 198px
+}
+
+@media screen and (max-width: 767px) {
+  .header__edition {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.slider-content {
+  display: flex;
+  overflow-x: hidden;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .slider-content {
+    margin-bottom: 84px;
+  }
+}

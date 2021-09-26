@@ -1,0 +1,16 @@
+.header__navigation {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__navigation {
+    margin-bottom: 100px;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .header__navigation {
+    margin-bottom: 80px;
+  }
+}

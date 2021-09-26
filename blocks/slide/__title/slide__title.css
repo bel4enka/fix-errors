@@ -1,0 +1,9 @@
+.slide__title {
+  margin: 0;
+  font-family: 'NeueMachinaBold',sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0A0A0A;
+  margin-bottom: 16px;
+}

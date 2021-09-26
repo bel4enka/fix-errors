@@ -1,0 +1,14 @@
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  background: url("../../images/icon-open.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+
+  .menu-icon {
+    background-image: url("../../images/icon-open-white.svg");
+  }
+}

@@ -1,0 +1,20 @@
+.edition__line {
+  width: 130px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 198px;
+}
+
+@media screen and (max-width: 767px) {
+  .edition__line {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .edition__line {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

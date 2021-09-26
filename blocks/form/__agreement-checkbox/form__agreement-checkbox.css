@@ -1,0 +1,18 @@
+.form__agreement-checkbox:checked {
+  color: #fff;
+}
+.form__agreement-checkbox {
+  display: none;
+}
+
+.form__agreement-checkbox:checked + .form__agreement-custom-checkbox:after {
+  content: '';
+  position: absolute;
+  background: url("../../../images/checkbox-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 8px;
+  top: calc(50% - 4px);
+  left: calc(50% - 6px);
+}

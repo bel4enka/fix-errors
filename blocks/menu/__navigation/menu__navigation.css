@@ -1,0 +1,5 @@
+.menu__navigation {
+  flex-direction: column;
+  justify-content: center;
+  height: 766px;
+}

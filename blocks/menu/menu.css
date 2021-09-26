@@ -1,0 +1,25 @@
+.menu {
+  width: 480px;
+  padding: 20px 25px 0 40px;
+  box-sizing: border-box;
+  background-color: #000;
+  flex-direction: column;
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    width: 100%;
+    z-index: 2;
+  }
+}

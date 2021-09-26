@@ -1,0 +1,5 @@
+.progress-bar__indicator {
+  height: 4px;
+  background: #292929;
+  width: 0%;
+}

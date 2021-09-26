@@ -1,0 +1,10 @@
+.menu-icon_close {
+  background: url("../../../images/icon-close.svg");
+}
+
+@media screen and (max-width: 767px) {
+
+  .menu-icon_close {
+    background-image: url("../../../images/icon-close-white.svg");
+  }
+}

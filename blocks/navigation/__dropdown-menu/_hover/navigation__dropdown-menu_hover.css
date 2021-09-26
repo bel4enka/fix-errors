@@ -1,0 +1,6 @@
+.navigation__dropdown-menu_hover {
+  position: absolute;
+}
+.navigation__item_show-dropdown .navigation__button:hover .navigation__dropdown-menu_hover {
+  display: block;
+}

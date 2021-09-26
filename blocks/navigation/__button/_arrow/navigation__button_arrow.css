@@ -1,0 +1,21 @@
+.navigation__item_vertical .navigation__button_arrow {
+  margin: 0;
+}
+.navigation__button_arrow {
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.navigation__button_arrow::after {
+  content: '';
+  position: absolute;
+  background: url("./../../../../images/navigation-arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 12px;
+  height: 6px;
+  margin-left: 14px;
+  top: 9px;
+}

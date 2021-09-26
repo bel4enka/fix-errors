@@ -1,0 +1,4 @@
+.sticky-header_disable {
+  opacity: 0;
+  top: -64px;
+}

@@ -1,0 +1,14 @@
+.form__subscribe-info {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .form__subscribe-info {
+    flex-direction: column;
+  }
+
+}

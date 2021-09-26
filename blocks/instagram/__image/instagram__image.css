@@ -1,0 +1,45 @@
+.instagram__image {
+  display: block;
+  width: 335px;
+  height: 335px;
+}
+
+@media screen and (max-width: 1439px) {
+  .instagram__image {
+    display: block;
+    width: 473px;
+    height: 473px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .instagram__image {
+    width: 345px;
+    height: 345px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .instagram__image {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  .instagram__image {
+    width: 182px;
+    height: 182px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .instagram__image {
+    width: 148px;
+    height: 148px;
+  }
+}

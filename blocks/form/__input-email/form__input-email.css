@@ -1,0 +1,31 @@
+.form__input-email {
+  border: 0.5px solid #fff;
+  border-radius: inherit;
+  box-sizing: border-box;
+  padding: 12px 87px;
+  background: transparent;
+  width: 330px;
+  height: 48px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form__input-email::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-family: 'Golos',sans-serif;
+}
+
+.form__input-email:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .form__input-email {
+    padding-left: calc(50% - 79px);
+    padding-right: calc(50% - 79px);
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.dropdown-menu__link {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.dropdown-menu__link:last-child {
+  margin-bottom: 0;
+}
+
+.navigation__dropdown-menu_click .dropdown-menu__link {
+  margin-bottom: 0;
+  margin-top: 40px;
+}

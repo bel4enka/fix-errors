@@ -1,0 +1,17 @@
+.navigation__item {
+  list-style: none;
+}
+
+.navigation__item:nth-child(2) {
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation__item:first-child {
+    margin-right: 70px;
+  }
+
+  .navigation__item:nth-child(2) {
+    margin-right: 55px;
+  }
+}

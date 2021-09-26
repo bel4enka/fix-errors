@@ -1,0 +1,40 @@
+.slide__card {
+  width: 512px;
+  height: 512px;
+}
+
+@media screen and (max-width: 1439px) {
+  .slide,
+  .slide__card {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .slide,
+  .slide__card {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slide,
+  .slide__card {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .slide,
+  .slide__card {
+    width: 319px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slide,
+  .slide__card {
+    width: 263px;
+  }
+}

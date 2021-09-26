@@ -1,0 +1,17 @@
+.subscribe__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 48px;
+  color: #fff;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 375px) {
+
+  .subscribe__title {
+    line-height: 24px;
+    margin-bottom: 42px;
+    width: 100%;
+  }
+}
